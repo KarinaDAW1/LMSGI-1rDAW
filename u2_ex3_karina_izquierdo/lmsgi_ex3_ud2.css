@@ -1,0 +1,92 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+body {
+	margin: 20px;  
+	width: 90vw;   /* Ancho viewport */
+	height: 900px;
+	border: 3px solid grey;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+h1 {
+	background-color: #227C9D;
+	color: white;
+	padding: 30px 15px 0px 15px; 
+	margin: 20px; 
+	border: 5px dotted;
+	border-inline-color: #FFCB77;
+}
+
+.nav-contenedor {
+	background-color: #333;
+	padding: 20px 0; 
+    margin: 20px;
+
+}
+
+
+.nav {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0px;
+	width: 100%;
+}
+
+.nav a {
+	margin: 0px 10px;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+	background-color: #333;
+	flex:1;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.article1 {
+	width: 30%; 
+    margin: 10px; 
+    padding: 15px; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    background-color: #FFCB77;
+}
+
+.article2 {
+	width: 30%; 
+    margin: 10px; 
+    padding: 15px; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    background-color: #17C3B2;
+}
+.article3 {
+	width: 30%;
+    margin: 10px; 
+    padding: 15px; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    background-color: #FE6D73;
+}
+
+footer {
+	width: 95%;
+	margin: 30px 30px 30px 10px;
+	padding: 20px 20px 20px 40px;
+	background-color: #333;
+	color: white;
+	border: 5px #227C9D solid black;
+}
