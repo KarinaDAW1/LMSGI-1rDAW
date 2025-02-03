@@ -1,0 +1,93 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  height: 100vH;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: aliceblue;
+}
+
+.grid-container {
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(5, 5fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-auto-rows: 100px;
+  background-color:blanchedalmond;
+  gap: 2px;
+  color: white;
+  
+}
+
+.grid-container .item1 {
+  background-color: rgba(9, 126, 204, 0.897);
+  grid-column: 1/3;
+  grid-row:1/3 ;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.grid-container .item2 {
+  background-color: rgba(9, 126, 204, 0.897);
+  grid-column: 3/6;
+  grid-row: 1/2;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.grid-container .item3 {
+  background-color: rgba(9, 126, 204, 0.897);
+  grid-column: 4/6;
+  grid-row: 4/6;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.grid-container .item4 {
+  background-color: rgba(9, 126, 204, 0.897);
+  grid-column: 4/5;
+  grid-row: 2/4;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.grid-container .item5 {
+  background-color: rgba(9, 126, 204, 0.897);
+  grid-column: 2/4;
+  grid-row: 3/4;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.grid-container .item6 {
+  background-color: rgba(9, 126, 204, 0.897);
+  grid-column: 2/3;
+  grid-row: 5/6;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.grid-container .item7 {
+  background-color: rgba(9, 126, 204, 0.897);
+  grid-column: 1/2;
+  grid-row: 4/5;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
